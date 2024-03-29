@@ -1,4 +1,5 @@
---listar o nome as coord e o rating de todos os espaços e se tiver 1 evento hoje a informação e o subtipo 
+--listar o nome as coord e o rating de todos os espaÃ§os e se tiver 1 evento hoje a informaÃ§Ã£o e o subtipo 
+-- list the name, coordinates and rating of all the spaces, and if the spaces have an event today (2024-02-15) list all the info and the its subtype
 
 SELECT sp.Name, sp.Coordinates, sp.AverageRating, est.Name FROM Spaces sp
 JOIN [Events] ev ON sp.ID_Space = ev.ID_Space
